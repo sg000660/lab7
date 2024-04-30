@@ -1,0 +1,47 @@
+/* styles.css */
+
+ion-content {
+    --ion-background-color: #faf8f8;
+    /* Background color for ion-content in dark mode */
+    --ion-text-color: #080808;
+    /* Text color for ion-content in dark mode */
+    padding: 20px;
+}
+
+ion-item {
+    margin-bottom: 20px;
+    // --ion-item-background: #333;
+    /* Background color for ion-item in dark mode */
+    --ion-color-base: #fff;
+    /* Base color for ion-item text in dark mode */
+}
+
+ion-label {
+    color: #fff;
+    /* Label text color in dark mode */
+}
+
+ion-input {
+    border: 1px solid #666;
+    /* Input border in dark mode */
+    border-radius: 5px;
+    /* Border radius for input */
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    /* Input text color in dark mode */
+}
+
+ion-button {
+    --background: #007bff;
+    /* Button background color */
+    --color: #fff;
+    /* Button text color */
+    border-radius: 5px;
+    /* Button border radius */
+}
+
+ion-button:hover {
+    --background: #0056b3;
+    /* Button background color on hover */
+}

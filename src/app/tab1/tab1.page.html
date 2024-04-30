@@ -1,0 +1,34 @@
+
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button default-href="#"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Users
+    </ion-title>
+  </ion-toolbar>
+
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+    <ion-card-title>List of users</ion-card-title>
+  </ion-card-header>
+  </ion-card>
+  
+  <div class="user-list">
+    <ion-list>
+      <div class="item" *ngFor="let user of users">
+        <!-- <ion-avatar slot="start"> -->
+        <img [src]="user.avatar">
+        <!-- </ion-avatar> -->
+        <ion-label>
+          <h2>{{ user.first_name }} {{ user.last_name }}</h2>
+          <p>{{ user.email }}</p>
+        </ion-label>
+
+        <ion-button color="primary" slot="end" (click)="removeUser(user)">Remove</ion-button>
+      </div>
+    </ion-list>
+  </div>
+</ion-content>

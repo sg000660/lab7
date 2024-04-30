@@ -1,0 +1,86 @@
+/* Style for ion-header */
+ion-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Style for ion-toolbar */
+ion-toolbar {
+  background-color: #007bff;
+  /* You can change the color as needed */
+  color: white;
+  /* Text color */
+  text-align: center;
+}
+ion-card{
+  text-align: center;
+  color: #007bff;
+}
+
+/* Style for ion-title */
+ion-title {
+  font-size: 1.5rem;
+}
+
+/* Style for ion-content */
+ion-content {
+  padding-top: 56px;
+  /* Adjust according to your header height */
+}
+
+/* Style for user list container */
+.user-list {
+  padding: 16px;
+}
+
+/* Style for ion-list */
+ion-list {
+  // margin: 0;
+  margin-top: 70px;
+  padding: 0;
+}
+
+/* Style for ion-item */
+.item {
+  border-bottom: 1px solid #ddd;
+  /* Separator between items */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for ion-avatar */
+ion-avatar {
+  width: 48px;
+  height: 48px;
+}
+
+/* Style for ion-label */
+ion-label {
+  margin-left: 8px;
+}
+
+/* Style for user name */
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+/* Style for user email */
+p {
+  margin: 0;
+  color: #666;
+  /* Color for email text */
+}
+
+/* Style for remove button */
+ion-button[slot='end'] {
+  --background: #dc3545;
+  /* Red color for remove button */
+  --color: white;
+  /* Text color */
+  --border-radius: 4px;
+  /* Rounded corners */
+  font-size: 0.8rem;
+}
